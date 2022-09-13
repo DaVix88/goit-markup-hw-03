@@ -1,0 +1,194 @@
+:root {
+    --main-color: #212121;
+    --second-color: #757575;
+    --hover-color: #2196F3;
+    --background-color: #2F303A;
+    --second-background: #F5F4FA;
+    --white-color: #FFFFFF;
+    --footer-contact: rgba(255, 255, 255, 0.6);
+    --background-btn: #F5F4FA;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-color); 
+    }
+.list {
+    list-style: none;
+}
+    /* Header sections */
+.logo{
+    color: var(--hover-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.logo span{
+    color: #000000;
+
+}
+.header-nav .link{
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none
+}
+.header-nav span{
+    color: var(--hover-color);
+}
+
+.link:hover,
+.link:focus{
+    color: var(--hover-color);
+}
+.header-contact a{
+    color: var(--second-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none
+}
+/* Hero sections */
+.hero {
+    background-color: var(--background-color);
+}
+
+.hero-header{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--white-color);
+        
+    }
+.hero-btn{
+    background-color: var(--hover-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    cursor: pointer;
+}   
+/* Наши преимущества */
+.subtitle{
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+} 
+
+/* Photo section */
+.headline{
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* Team sections */
+.team-sections{
+    background-color: var(--second-background);
+}
+.name-staff{
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+
+}    
+.profession{
+    color: var(--second-color);
+    font-size: 16px;
+    line-height: 1.18px;
+
+}
+/* Footer */
+.footer-logo{
+    color: var(--hover-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.footer-logo span{
+    color: var(--white-color);
+}
+.footer{
+    background-color: var(--background-color);
+}
+.address-footer {
+    font-style: normal;
+}
+.address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    text-decoration: none
+}
+.footer-contact a{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-contact);
+    text-decoration: none;
+}
+/* PORTFOLIO */
+.portfolio-bnt button{
+    color: var(--main-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--background-btn);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.link-bnb:hover,
+.link-bnb:focus{
+    color: var(--white-color);
+    background-color: var(--hover-color);
+}
+.company{
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.caption{
+    color: var(--second-color);
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+.visually-hidden{
+    display: none;
+}
+.list a{
+    text-decoration: none;
+}
