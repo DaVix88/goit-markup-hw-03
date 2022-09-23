@@ -7,6 +7,7 @@
     --white-color: #FFFFFF;
     --footer-contact: rgba(255, 255, 255, 0.6);
     --background-btn: #F5F4FA;
+    --projects-border: 1px solid #eeeeee;
 
 }
 body {
@@ -45,7 +46,7 @@ h1,h2,h3,h4,h5,h6,ul,p{
             /* Header sections */
 
 .page-header{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;;
 }
 
     /* Main-nav */
@@ -144,11 +145,15 @@ h1,h2,h3,h4,h5,h6,ul,p{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--white-color);
-    border: var(--hover-color);
+    border: none;
     cursor: pointer;
 }  
+.hero-btn:hover{
+    background-color: #188CE8;
+}
 
         /* Advantage sections */
 
@@ -233,7 +238,7 @@ h1,h2,h3,h4,h5,h6,ul,p{
     margin-top: 10px;
     color: var(--second-color);
     font-size: 16px;
-    line-height: 1.18px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -288,7 +293,6 @@ h1,h2,h3,h4,h5,h6,ul,p{
 }
 .portfolio-bnt button{
     padding: 6px 22px;
-    display: block;
     color: var(--main-color);
     font-family: inherit;
     font-weight: 500;
@@ -305,6 +309,9 @@ h1,h2,h3,h4,h5,h6,ul,p{
 .link-bnb:focus{
     color: var(--white-color);
     background-color: var(--hover-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px 
+    rgba(0, 0, 0, 0.12);
 }
 
     /* flex-container */
@@ -327,7 +334,7 @@ h1,h2,h3,h4,h5,h6,ul,p{
 }
 .projects{
         padding: 20px 24px;
-        border: 1px solid #eeeeee;
+        border: var(--projects-border);
         border-top: none;
 }
 .company{
