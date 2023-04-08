@@ -1,0 +1,209 @@
+:root {
+    --iris-primary-brand: #4D5AE5;
+    --ocean-pressed-state: #404BBF;
+    -navy-blue-dark: #2E2F42;
+    --green-success: #31D0AA;
+    --slate-text: #434455;
+    --light-slate-subtle-text: #8E8F99;
+    --cornflower-accent: #E7E9FC;
+    --cloud-light: #F4F4FD;
+    --navy-blue-modal: #2E2F42;
+    --hero-hero-background: #2E2F42;
+    --white-text: #FFFFFF;
+    --white-background: #FFFFFF;
+    --dairy-odal-background: #FCFCFC;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--slate-text);
+}
+button{
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+.list{
+    list-style-type: none;
+}
+
+/* LOGO */
+.logo-web{
+    color: var(--iris-primary-brand);
+}
+.header-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height:1.16 ;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue-modal);
+}
+/* HEADER */
+.header-nav{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-modal);
+    
+}
+.header-nav:hover,
+.header-nav:focus{
+    color: var(--ocean-pressed-state);
+}
+.header-adress{
+    color: var(--slate-text);
+    letter-spacing: 0.02em;
+}
+.header-adress:hover,
+.header-adress:focus{
+    color: var(--ocean-pressed-state);
+
+}
+
+/* HERO SECTION */
+.hero-section{
+    background-color: var(--navy-blue-modal);
+}
+
+.hero-main{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-text)
+}
+.hero-button{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--white-text);
+    background-color: var(--iris-primary-brand);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background-color: var(--ocean-pressed-state);
+}
+
+/* ABOUT SECTION */
+.hidden{
+    display: none;
+}
+.about-subject{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--navy-blue-modal)
+}
+.about-paragraph{
+    letter-spacing: 0.02em;
+}
+
+/* WE DOING */
+.doing-subtitle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue-modal)
+}
+
+/* TEAM SECTION */
+.team-section{
+    background-color: var(--cloud-light);
+}
+.team-subtitle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue-modal)
+}
+.team-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue-modal)
+}
+
+/* FOOTER */
+.footer{
+background-color: var(--navy-blue-modal);
+}
+.footer-web{
+    color: var(--iris-primary-brand);
+}
+.footer-studio{
+    color: var(--cloud-light);
+}
+.footer-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height:1.16 ;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--navy-blue-modal);
+
+}
+.footer-paragraph{
+    letter-spacing: 0.02em;
+    color: var(--cloud-light);
+}
+
+
+/* PORTFOLIO SECTION */
+.portfolio-btn{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris-primary-brand);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 24px;
+    background: var(--cloud-light);
+    border: 1px solid var(--cornflower-accent);
+    border-radius: 4px;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    color: var(--white-text);
+    background-color: var(--ocean-pressed-state);
+}
+.portfolio-subject{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--navy-blue-modal)
+}
+.portfolio-text{
+    color: var(--slate-text)
+}
